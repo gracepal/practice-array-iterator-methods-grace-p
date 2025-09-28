@@ -22,7 +22,7 @@ Practice methods, push(), pop(), unshift(), shift(), includes(), indexOf(), last
 
 ### Example Program Output Reference
 
-WIP
+<img width="528" height="359" alt="launchcode_usingArraysLesson5" src="https://github.com/user-attachments/assets/05328617-b3de-46e3-a5df-fb62d21a05cb" />
 
 ### Reference Tables
 

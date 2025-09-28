@@ -8,7 +8,7 @@ Task 1: Using forEach()
 
 const cities = ['Mountain View', 'Sunnyvale', 'Pal Alto', 'Menlo Park', 'San Mateo'];
 console.log('\nMy favorite cities:');
-cities.forEach((city) => console.log(`  - ${city}`));
+cities.forEach((city) => console.log(`  - ${city.toUpperCase()}`));
 
 /************************************************************
 Task 2: Transforming with map()
@@ -40,11 +40,11 @@ const highScores = scores.filter((score) => score >= 80);
 console.log(`\nOf ${scores}, the high scores are ${highScores}`);
 
 /************************************************************
-Task 4: Finding with find() and findIndex()
-1. Create an array called favoriteFood that contains a list of your favorite
-dishes. Try to add 5 or 6 elements.
-2. Use find() to locate the first food with more than 4 letters.
-3. Use findIndex( ) to find the index of that fruit.
+ Task 4: Finding with find() and findIndex()
+ 1. Create an array called favoriteFood that contains a list of your favorite
+ dishes. Try to add 5 or 6 elements.
+ 2. Use find() to locate the first food with more than 4 letters.
+ 3. Use findIndex( ) to find the index of that fruit.
  */
 
 const favoriteFoods = ['Salmon', 'Steak', 'Eggs', 'Avocado', 'Blueberries', 'Arugula'];
@@ -54,3 +54,27 @@ console.log('\nMy Favorite Foods:');
 favoriteFoods.forEach((food) => console.log(`  - ${food}`));
 console.log(`The first food item with more than 4 characters is ${foodItem} at index ${foodIndex}`);
 console.log('\n');
+
+/************************************************************
+ ➜  practice-array-iterator-methods-grace-p git:(main) ✗ node main.js
+
+My favorite cities:
+  - MOUNTAIN VIEW
+  - SUNNYVALE
+  - PAL ALTO
+  - MENLO PARK
+  - SAN MATEO
+
+1,2,3,4,5 squared is: 1,4,9,16,25
+
+Of 85,42,90,75,30,100, the high scores are 85,90,100
+
+My Favorite Foods:
+  - Salmon
+  - Steak
+  - Eggs
+  - Avocado
+  - Blueberries
+  - Arugula
+The first food item with more than 4 characters is Salmon at index 0
+*/
